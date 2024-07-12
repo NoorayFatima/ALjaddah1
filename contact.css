@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Times New Roman;
+}
+.banner{
+    width: 100%;
+   /* background-image: url('F:\xampp\htdocs\Noor\full stack course\images\1.png');*/
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    color: white;
+    background-color:rgb(119, 94, 65);
+    width: 100%;
+    margin:auto;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.img img{
+    position: absolute;
+    top: 10%;
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+}
+
+.contact-container{
+    position: absolute;
+    top: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 10px;
+    width: 90%;
+    justify-content: space-between;
+    
+
+}
+/*.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    gap: 2rem;
+}*/
+
+.contact-info, .contact-form {
+    width: 45%;
+}
+.contact-info{
+    margin-left: 40px;
+}
+
+.contact-form{
+    margin-left: 35px;
+}
+
+.contact-info h1, .contact-form h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: rgb(119, 94, 65);
+    border-bottom: 2px solid rgb(119, 94, 65);
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    color: rgb(119, 94, 65);
+    margin-right: 1rem;
+}
+
+.info-item span {
+    font-size: 1rem;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-bottom: 2px slid rgb(119, 94, 65);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/*input:focus, textarea:focus {
+    outline: none;
+    border-color: #007BFF;*/
+}
+
+button {
+    background-color: rgb(119, 94, 65);
+    padding: 0.75rem;
+    color: blue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
